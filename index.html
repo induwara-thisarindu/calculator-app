@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Calculator app</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="calculator" id="cal">
+    <div class="cal-header">
+      <h1 id="logo">calc</h1>
+      <div class="theme">
+        <label for="theme">THEME</label>
+        <div class="tri-state-toggle">
+          <input class="button-toggle" type="radio" name="toggle" id="one" />
+          <input class="button-toggle" type="radio" name="toggle" id="two" />
+          <input class="button-toggle" type="radio" name="toggle" id="three" />
+        </div>
+      </div>
+    </div>
+    <div class="cal-screen" id="cal-screen">
+      <h1 id="cal-text">0</h1>
+    </div>
+    <div class="cal-ui" id="cal-ui">
+      <button it="cal-btn" id="7"><p id="7">7</p></button>
+      <button it="cal-btn" id="8"><p id="8">8</p></button>
+      <button it="cal-btn" id="9"><p id="9">9</p></button>
+      <button it="cal-btn" id="del-btn"><p id="DEL">DEL</p></button>
+      <button it="cal-btn" id="4"><p id="4">4</p></button>
+      <button it="cal-btn" id="5"><p id="5">5</p></button>
+      <button it="cal-btn" id="6"><p id="6">6</p></button>
+      <button it="cal-btn" id="+"><p id="+">+</p></button>
+      <button it="cal-btn" id="1"><p id="1">1</p></button>
+      <button it="cal-btn" id="2"><p id="2">2</p></button>
+      <button it="cal-btn" id="3"><p id="3">3</p></button>
+      <button it="cal-btn" id="-"><p id="-">-</p></button>
+      <button it="cal-btn" id="."><p id=".">.</p></button>
+      <button it="cal-btn" id="0"><p id="0">0</p></button>
+      <button it="cal-btn" id="/"><p id="/">/</p></button>
+      <button it="cal-btn" id="x"><p id="x">x</p></button>
+      <button it="cal-btn" id="reset-btn"><p id="reset">RESET</p></button>
+      <button it="cal-btn" id="result-btn"><p id="result">=</p></button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
